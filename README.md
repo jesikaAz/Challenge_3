@@ -6,6 +6,9 @@
 
 ## Authors: Jessica Anschutz / Jonathan Guillou
 
+
+
+
 **Jessica:**
 
 * 
@@ -16,12 +19,16 @@
 
 * 
 
+
+
+
+
 **Jonathan:**
 
-* 
+* La barre de navigation
 
-* 
+* Le header
 
-* 
+* Le footer
 
 ___

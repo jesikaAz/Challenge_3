@@ -1,0 +1,44 @@
+/*-- Le body--*/
+
+body{
+	width: 100%;
+	height: 3000px;
+}
+
+
+/*-- Barre de navigation--*/
+
+.navbar{
+	background-color: #212121;
+	width: 100%;
+	height:60px;
+	position: fixed;
+	margin-bottom: 0px;
+	border-style: none;
+}
+ul{
+	padding: 20px 0px 18px 8px;
+	margin: 0px;
+}
+li{
+	list-style: none;
+	display: inline;
+	margin-right: 22px;
+	margin-left: 15px;
+}
+
+
+/*-- header--*/
+
+header{
+	width: 100%;
+	height: 275px;
+	background-color: #f2f2f2;
+}
+.section{
+	padding-top:110px;
+	line-height: 55px;
+}
+.textheader{
+	text-align: center;
+}

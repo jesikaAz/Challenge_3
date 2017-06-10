@@ -1,24 +1,19 @@
 /*
 Description: Intégration d'une maquette avec bootstrap
-
 Auteur: Jessica Anschultz et Jonathan Guillou
-
 Date: Semaine 24
-
 */
 
 html{
 	width: 100%;
-	height: 100%;
 }
-
 
 body{
 	background-size: cover;
 }
 
 
-/*-- Barre de navigation--*/
+/*------------Barre de navigation---------*/
 
 .navbar{
 	background-color: #212121;
@@ -26,8 +21,8 @@ body{
 	height:60px;
 	position: fixed;
 	margin-bottom: 0px;
+	z-index: 1;
 }
-
 a{
 	color: #717981;
 	text-decoration: none;
@@ -47,7 +42,7 @@ li{
 }
 
 
-/*-- header--*/
+/*----------------header------------------*/
 
 header{
 	width: 100%;
@@ -70,38 +65,53 @@ header{
 	margin-bottom: 20px;
 }
 
-/*-- footer--*/
+/*-----------------footer----------------*/
 
 footer{
+	width: 100%;
+	min-height: 429px;
+	background-color: #ffffff;
 }
 
-.about {
-	border: solid 2px red;
+.footer-widget-wrapper {
 	min-height: 429px;
-	text-align: center;
+	word-wrap: break-word;
+}
+aside {
+   	word-wrap: break-word;
+	text-align: left;
+	padding-left: 20px;
+	line-height: 32px;
+}
+.about {
+	width: 363px;
+	height: 242px;
+	background-size: cover;
+	margin-bottom: 50px;
 }
 .recent {
-	border: solid 2px red;
 	min-height: 429px;
-	text-align: center;
 }
 .instagram {
-	border: solid 2px red;
 	min-height: 429px;
-	text-align: center;
 }
 .instagram2 {
 	border: solid 2px black;
 	min-height: 80px;
 	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 .icon {
-	border: solid 2px black;
 	min-height: 80px;
 	text-align: center;
+	background-color: #212121;
 }
+
 .end {
-	border: solid 2px black;
 	min-height: 80px;
 	text-align: center;
+	background-color: #212121;
+	line-height: 82px;
+	color: #717981;
 }

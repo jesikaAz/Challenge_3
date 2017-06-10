@@ -30,9 +30,9 @@ a{
 a:hover{
 	color: #ffffff;
 }
-ul{
-	padding: 20px 0px 18px 8px;
-	margin: 0px;
+.navbar,ul{
+	padding: 10px 0px 18px 0px;
+	margin: -1px;
 }
 li{
 	list-style: none;
@@ -71,17 +71,17 @@ footer{
 	width: 100%;
 	min-height: 429px;
 	background-color: #ffffff;
-}
-
-.footer-widget-wrapper {
-	min-height: 429px;
 	word-wrap: break-word;
 }
+.footer-widget-wrapper {
+	min-height: 429px;
+}
 aside {
-   	word-wrap: break-word;
 	text-align: left;
 	padding-left: 20px;
-	line-height: 32px;
+	padding-right: 0px;
+	line-height: 30px;
+	margin-bottom: 50px;
 }
 .about {
 	width: 363px;
@@ -89,10 +89,19 @@ aside {
 	background-size: cover;
 	margin-bottom: 50px;
 }
+h4.double {
+	width: 363px;
+	border-bottom-style: double;
+	line-height: 42px;
+	margin-bottom: 22px;
+}
 .recent {
 	min-height: 429px;
 }
 .instagram {
+	min-height: 429px;
+}
+.instagram1{
 	min-height: 429px;
 }
 .instagram2 {
@@ -103,15 +112,27 @@ aside {
 	padding-bottom: 60px;
 }
 .icon {
-	min-height: 80px;
-	text-align: center;
+	width: 100%;
+	min-height: 97px;
+	margin-left: 0px;
+	margin-right: 40px;
+	padding-top: 30px;
+	padding-bottom: 15px;
 	background-color: #212121;
 }
-
+.icon li {
+	text-decoration: none;
+	font-size: 16px;
+	padding-right: 20px;
+	padding-left: 25px;
+}
 .end {
 	min-height: 80px;
 	text-align: center;
 	background-color: #212121;
 	line-height: 82px;
 	color: #717981;
+	border-top: solid 2px #717981;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }

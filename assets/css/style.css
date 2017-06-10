@@ -27,6 +27,14 @@ body{
 	position: fixed;
 	margin-bottom: 0px;
 }
+
+a{
+	color: #717981;
+	text-decoration: none;
+}
+a:hover{
+	color: #ffffff;
+}
 ul{
 	padding: 20px 0px 18px 8px;
 	margin: 0px;
@@ -48,7 +56,7 @@ header{
 }
 .section{
 	padding-top:110px;
-	line-height: 80px;
+	line-height: 82px;
 }
 .textheader{
 	text-align: center;
@@ -58,11 +66,14 @@ header{
 	background-image: url("../images/mom-daughter.jpg");
 	background-size: cover;
 	max-width: 100%;
-	min-height: 600px;
+	min-height: 560px;
+	margin-bottom: 20px;
 }
 
 /*-- footer--*/
 
+footer{
+}
 
 .about {
 	border: solid 2px red;

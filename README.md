@@ -9,7 +9,7 @@
 
 
 
-**Jessica:**
+*Jessica:
 
 * 
 
@@ -23,7 +23,7 @@
 
 
 
-**Jonathan:**
+*Jonathan:
 
 * La barre de navigation
 

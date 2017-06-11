@@ -9,8 +9,12 @@ html{
 
 body{
 	background-size: cover;
+	margin-left: 0px;
 }
-
+.row {
+	margin-left: -48px;
+	margin-right: -75px;
+}
 
 /*------------Barre de navigation---------*/
 
@@ -21,6 +25,7 @@ body{
 	position: fixed;
 	margin-bottom: 0px;
 	z-index: 1;
+	margin-right: -5px;
 }
 a{
 	color: #717981;
@@ -32,11 +37,12 @@ a:hover{
 .navbar,ul{
 	padding: 10px 0px 18px 0px;
 	margin: -1px;
+	margin-left: 32px;
 }
 li{
 	list-style: none;
 	display: inline;
-	margin-right: 22px;
+	margin-right: 27px;
 	margin-left: 15px;
 }
 
@@ -54,7 +60,7 @@ header{
 	line-height: 22px;
 }
 .imgheader{
-	margin: 105px 50px 20px 405px ;
+	margin: 105px 50px 20px 475px ;
 }
 .textheader{
 	text-align: center;
@@ -75,6 +81,8 @@ footer{
 	min-height: 429px;
 	background-color: #ffffff;
 	word-wrap: break-word;
+	margin-left: -18px;
+	margin-right: 0px;
 }
 .footer-widget-wrapper {
 	min-height: 429px;
@@ -108,14 +116,15 @@ h4.double {
 	border: solid 2px black;
 	min-height: 80px;
 	text-align: center;
+	margin-left: -35px;
+	margin-right: -45px;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
 .icon {
-	width: 100%;
 	min-height: 97px;
-	margin-left: 0px;
-	margin-right: 40px;
+	margin-left: -55px;
+	margin-right: -55px;
 	padding-top: 30px;
 	padding-bottom: 15px;
 	background-color: #212121;
@@ -133,6 +142,8 @@ h4.double {
 	line-height: 82px;
 	color: #717981;
 	border-top: solid 2px #717981;
+	margin-left: -55px;
+	margin-right: -55px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }

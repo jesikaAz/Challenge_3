@@ -71,13 +71,12 @@ li{
 	margin-left: 55px;
 }
 
-/* .glyphicon {
-	color:#999999;
-	height: 58px;
-    	font-size: 16px;
-    	background: none;
-
-} pour personnaliser le glyphicon search ? */ 
+/*.glyphicon {
+	color: #ffffff;
+	height: 0px;
+    font-size: 16px;
+    background: none;
+}*/
 
 /*----------------Header------------------*/
 
@@ -87,32 +86,32 @@ header{
 	background-color: #f2f2f2;
 }
 .section{
-	margin-top: 68px;
+	margin-top: 10px;
 	background-size: cover;
-	line-height: 22px;
+	line-height: 21px;
 }
 .imgheader{
-	padding: 50px 400px 0px 450px;
+	padding: 100px 0px 0px 450px;
 }
 .textheader{
 	text-align: center;
 	padding-bottom: 50px;
 }
 .article{
-	background-image: url("../images/mom-daughter.jpg");
+	background-image: url("../images/mom-daughter1.jpg");
 	background-size: cover;
 	max-width: 100%;
 	min-height: 560px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 /*----------------- Blocs d'articles ----------------*/
 
 .img-responsive {
-  	/*display: block;
-  	max-width: 100%; */
+  	display: block;
+  	max-width: 100%;
 	width: 570px;
-    	height: 380px;
+    height: 380px;
 	background-position:center;
 	
 } 
@@ -226,7 +225,7 @@ aside {
 	margin-bottom: 50px;
 	background-size: cover;
 }
-h4.double {
+h5.double {
 	width: 363px;
 	border-bottom-style: double;
 	line-height: 42px;
@@ -249,8 +248,8 @@ h4.double {
 	text-align: center;
 	margin-left: -95px;
 	margin-right: -95px;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	/*padding-top: 60px;
+	padding-bottom: 60px;*/
 }
 .icon {
 	min-height: 97px;
@@ -270,11 +269,11 @@ h4.double {
 	min-height: 80px;
 	text-align: center;
 	background-color: #212121;
-	line-height: 82px;
 	color: #717981;
 	border-top: solid 2px #717981;
-	margin-left: -55px;
-	margin-right: -55px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 50px 0px 50px 00px;
+}
+.end p{
+	text-align: center;
+	line-height: 72px;
 }

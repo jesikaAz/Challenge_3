@@ -108,25 +108,30 @@ header{
 
 /*----------------- Blocs d'articles ----------------*/
 
+.container {
+	margin:0;
+	padding:0;
+}
+
 .img-responsive {
   	/*display: block;
   	max-width: 100%; */
 	width: 570px;
     	height: 380px;
 	background-position:center;
-	
+	margin:0;
+	padding:0;	
 } 
 
 .col-md-6 { 
 	width: 570px;
 	position: relative;
- 	min-height: 1px;
   	padding-right: 15px;
  	padding-left: 15px;	
 } 
 
 h3 a {
-	font-family: 'Lato',sans-serif; /* Polices à rajouter dans le lien CSS: Lato*/
+	font-family: 'Lato',serif; 
 	text-align: center;
 	font-size: 12px;
 	color:#a60505;
@@ -134,7 +139,7 @@ h3 a {
 }
 
 h2 a {
-    	font-family:'Playfair Display', sans-serif; /* Polices à rajouter dans le lien CSS:'Playfair Display' */
+    	font-family:'Playfair Display',serif; 
     	text-align: center;
     	font-size: 18px;
     	color: #313131;
@@ -143,7 +148,7 @@ h2 a {
 }
 
 h4 {
-	font-family: 'Lato', sans-serif; 
+	font-family: 'Lato',serif; 
 	text-align: center;
 	font-style: italic;
 	text-align: center;
@@ -153,21 +158,24 @@ h4 {
 }
 
 h4 span {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato',serif;
  	font-style: italic;
  	font-size: 14px;
  	color: #313131;
-
 }
 
 p {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato',serif;
  	color:#313131;
  	font-size: 14px;
-   line-height: 28px;
-   text-align: left;
+	line-height: 28px;
+        text-align: left;
 }
 
+hr {
+	height: 1px;
+    	background-color: #DEDEDE;
+}
 
 share {
 	background-position: center bottom;

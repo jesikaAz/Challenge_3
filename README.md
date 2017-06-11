@@ -11,13 +11,13 @@
 
 **Jessica:
 
-* 
+* Les blocs d'articles 
 
 
-* 
+* Les barres sociales (des articles)
 
 
-* 
+* La pagination
 
 
 

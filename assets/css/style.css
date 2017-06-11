@@ -1,8 +1,7 @@
-/*
-Description: Intégration d'une maquette avec bootstrap
+
+/*--Description: Intégration d'une maquette avec bootstrap
 Auteur: Jessica Anschultz et Jonathan Guillou
-Date: Semaine 24
-*/
+Date: Semaine 24--*/
 
 html{
 	width: 100%;
@@ -50,12 +49,16 @@ header{
 	background-color: #f2f2f2;
 }
 .section{
-	padding-top:110px;
-	line-height: 82px;
+	margin-top: 68px;
+	background-size: cover;
+	line-height: 22px;
+}
+.imgheader{
+	margin: 105px 50px 20px 405px ;
 }
 .textheader{
 	text-align: center;
-	margin-bottom: 0px;
+	padding-bottom: 50px;
 }
 .article{
 	background-image: url("../images/mom-daughter.jpg");
@@ -77,17 +80,14 @@ footer{
 	min-height: 429px;
 }
 aside {
+	width: 363px;
+	min-height: 242px;
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 0px;
 	line-height: 30px;
 	margin-bottom: 50px;
-}
-.about {
-	width: 363px;
-	height: 242px;
 	background-size: cover;
-	margin-bottom: 50px;
 }
 h4.double {
 	width: 363px;

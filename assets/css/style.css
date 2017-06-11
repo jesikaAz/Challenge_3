@@ -14,17 +14,15 @@ Date: Semaine 24--*/
 ---*/
 
 /*-----------Généralités---------*/
-html{
-	width: 100%;
-	-webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-}
 
-body{
+html body{
 	width: 100%;
 	font-size:14px;
 	font-family:'sans serif';
 }
+
+/*html{/*-webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;} */ 
 
 /*------------Polices---------*/
 
@@ -35,7 +33,7 @@ body{
 
 @font-face {
     font-family: "Lato";
-    src: url("../fonts/Lato-Regular.ttf"); /*Manque le lien pour les polices Lato et Playfairdisplay */
+    src: url("../fonts/Lato-Regular.ttf"); 
 }
 
 @font-face {
@@ -114,8 +112,8 @@ header{
 }
 
 .img-responsive {
-  	/*display: block;
-  	max-width: 100%; */
+  	display: block;
+  	/*max-width: 100%; */
 	width: 570px;
     	height: 380px;
 	background-position:center;

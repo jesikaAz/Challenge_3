@@ -16,6 +16,8 @@ Date: Semaine 24--*/
 /*-----------Généralités---------*/
 html{
 	width: 100%;
+	-webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
 }
 
 body{
@@ -29,6 +31,16 @@ body{
 @font-face {
     font-family: "FontAwesome";
     src: url("../fonts/FontAwesome.otf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf"); /*Manque le lien pour les polices Lato et Playfairdisplay */
+}
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url("../fonts/PlayfairDisplay-Bold.ttf");
 }
 
 /*------------Barre de navigation---------*/
@@ -59,6 +71,13 @@ li{
 	margin-left: 55px;
 }
 
+/* .glyphicon {
+	color:#999999;
+	height: 58px;
+    	font-size: 16px;
+    	background: none;
+
+} pour personnaliser le glyphicon search ? */ 
 
 /*----------------Header------------------*/
 
@@ -87,11 +106,104 @@ header{
 	margin-bottom: 20px;
 }
 
-
-
 /*----------------- Blocs d'articles ----------------*/
 
+.img-responsive {
+  	/*display: block;
+  	max-width: 100%; */
+	width: 570px;
+    	height: 380px;
+	background-position:center;
+	
+} 
+
+.col-md-6 { 
+	width: 570px;
+	position: relative;
+ 	min-height: 1px;
+  	padding-right: 15px;
+ 	padding-left: 15px;	
+} 
+
+h3 a {
+	font-family: 'Lato',sans-serif; /* Polices à rajouter dans le lien CSS: Lato*/
+	text-align: center;
+	font-size: 12px;
+	color:#a60505;
+	letter-spacing: 0.5px;
+}
+
+h2 a {
+    	font-family:'Playfair Display', sans-serif; /* Polices à rajouter dans le lien CSS:'Playfair Display' */
+    	text-align: center;
+    	font-size: 18px;
+    	color: #313131;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: 'Lato', sans-serif; 
+	text-align: center;
+	font-style: italic;
+	text-align: center;
+	color:#DEDEDE;
+	margin: 0 11px 0 15px;
+	display: inline-block;
+}
+
+h4 span {
+	font-family: 'Lato', sans-serif;
+ 	font-style: italic;
+ 	font-size: 14px;
+ 	color: #313131;
+
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+ 	color:#313131;
+ 	font-size: 14px;
+   line-height: 28px;
+   text-align: left;
+}
+
+
+share {
+	background-position: center bottom;
+}
+
+
+
 /*----------------- Pagination ----------------*/
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  border:1px;
+  color: #888;
+  text-align: center;
+  line-height: 28px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold; 
+}
+
+.pagination .active  {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  border:1px;
+  background-color: #a60505;
+  border-color: #a60505;
+}
+
+barre-separation {
+ width: 100%;
+ height: 1px;
+ color: #DEDEDE;
+ display: block;
+ top: 49%;
+}
 
 /*-----------------Footer----------------*/
 

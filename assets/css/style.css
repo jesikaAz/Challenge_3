@@ -19,13 +19,10 @@ html{
 }
 
 body{
+	width: 100%;
 	font-size:14px;
 	font-family:'sans serif';
 }
-/*.row {
-	margin-left: -48px;
-	margin-right: -75px;
-} */
 
 /*------------Polices---------*/
 
@@ -41,9 +38,7 @@ body{
 	width: 100%;
 	height:60px;
 	position: fixed;
-	margin-bottom: 0px;
 	z-index: 1;
-	margin-right: -5px;
 }
 a{
 	color: #717981;
@@ -53,15 +48,15 @@ a:hover{
 	color: #ffffff;
 }
 .navbar,ul{
-	padding: 10px 0px 18px 0px;
-	margin: -1px;
-	margin-left: 32px;
+	padding: 11px 5px 5px 5px;
+	margin-left: -0.5px;
 }
 li{
+	font-size:13px;
 	list-style: none;
 	display: inline;
-	margin-right: 27px;
-	margin-left: 15px;
+	margin-right: -10px;
+	margin-left: 55px;
 }
 
 
@@ -78,7 +73,7 @@ header{
 	line-height: 22px;
 }
 .imgheader{
-	margin: 105px 50px 20px 475px ;
+	padding: 50px 400px 0px 450px;
 }
 .textheader{
 	text-align: center;
@@ -105,8 +100,6 @@ footer{
 	min-height: 429px;
 	background-color: #ffffff;
 	word-wrap: break-word;
-	margin-left: -18px;
-	margin-right: 0px;
 }
 .footer-widget-wrapper {
 	min-height: 429px;
@@ -135,20 +128,22 @@ h4.double {
 }
 .instagram1{
 	min-height: 429px;
+	margin-right: -10px;
+	margin-left: 55px;
 }
 .instagram2 {
 	border: solid 2px black;
 	min-height: 80px;
 	text-align: center;
-	margin-left: -35px;
-	margin-right: -45px;
+	margin-left: -95px;
+	margin-right: -95px;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
 .icon {
 	min-height: 97px;
-	margin-left: -55px;
-	margin-right: -55px;
+	margin-left: -95px;
+	margin-right: -95px;
 	padding-top: 30px;
 	padding-bottom: 15px;
 	background-color: #212121;
@@ -156,8 +151,8 @@ h4.double {
 .icon li {
 	text-decoration: none;
 	font-size: 16px;
-	padding-right: 20px;
-	padding-left: 25px;
+	margin-right: -25px;
+	margin-left: 100px;
 }
 .end {
 	min-height: 80px;

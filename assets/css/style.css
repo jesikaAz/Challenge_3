@@ -1,19 +1,37 @@
 
 /*--Description: Intégration d'une maquette avec bootstrap
-Auteur: Jessica Anschultz et Jonathan Guillou
+Auteur: Jessica Anschutz et Jonathan Guillou
 Date: Semaine 24--*/
 
+/*------------ Organisation du CSS Challenge-03 ------------------------
+00- Généralités 
+01- Polices 
+02- Barre de navigation
+03- Header
+04- Blocs d'articles 
+05- Pagination
+06- Footer 
+---*/
+
+/*-----------Généralités---------*/
 html{
 	width: 100%;
 }
 
 body{
-	background-size: cover;
-	margin-left: 0px;
+	font-size:14px;
+	font-family:'sans serif';
 }
-.row {
+/*.row {
 	margin-left: -48px;
 	margin-right: -75px;
+} */
+
+/*------------Polices---------*/
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url("../fonts/FontAwesome.otf");
 }
 
 /*------------Barre de navigation---------*/
@@ -47,7 +65,7 @@ li{
 }
 
 
-/*----------------header------------------*/
+/*----------------Header------------------*/
 
 header{
 	width: 100%;
@@ -74,7 +92,13 @@ header{
 	margin-bottom: 20px;
 }
 
-/*-----------------footer----------------*/
+
+
+/*----------------- Blocs d'articles ----------------*/
+
+/*----------------- Pagination ----------------*/
+
+/*-----------------Footer----------------*/
 
 footer{
 	width: 100%;

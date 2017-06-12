@@ -268,13 +268,22 @@ h5.double {
 .recent {
 	min-height: 429px;
 }
+#recent1{
+	padding-bottom: 15px;
+}
+.barre-separation1{	
+	padding-top: 15px;
+	border-top:solid 1px #717981;
+}
 .instagram {
 	min-height: 429px;
 }
 .instagram1{
-	min-height: 429px;
-	margin-right: -10px;
-	margin-left: 55px;
+	background-image: url("../images/instagram.jpg");
+	background:cover;
+	min-height: 329px;
+	margin-right: px;
+	margin-left: px;
 }
 .instagram2 {
 	border: solid 2px black;

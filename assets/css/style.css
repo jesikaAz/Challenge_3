@@ -1,17 +1,26 @@
 
 /*--Description: Intégration d'une maquette avec bootstrap
+
 Auteur: Jessica Anschutz et Jonathan Guillou
+
 Date: Semaine 24--*/
 
-/*------------ Organisation du CSS Challenge-03 ------------------------
+
+
+/*------------ Organisation du CSS Challenge-03 ----------*
 00- Généralités 
 01- Polices 
 02- Barre de navigation
-03- Header
-04- Blocs d'articles 
+03- Header04- Blocs d'articles 
 05- Pagination
 06- Footer 
----*/
+/*---------------------------------------------------------*
+
+
+
+
+
+
 
 /*-----------Généralités---------*/
 
@@ -20,9 +29,6 @@ body{
  	height:100%
 	font-size:14px;
 }
-
-/*html{/*-webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;} */ 
 
 /*------------Polices---------*/
 
@@ -50,17 +56,21 @@ body{
 	position: fixed;
 	z-index: 1;
 }
+
 a{
 	color: #717981;
 	text-decoration: none;
 }
+
 a:hover{
 	color: #ffffff;
 }
+
 .navbar,ul{
 	padding: 10px 0px 50px 0px;
 	margin-left: -1px;
 }
+
 li{
 	font-family: 'Lato',serif;
 	font-size: 13px; 
@@ -71,12 +81,7 @@ li{
 	margin-left: 20px;
 }
 
-/*.glyphicon {
-	color: #ffffff;
-	height: 0px;
-    font-size: 16px;
-    background: none;
-}*/
+
 
 /*----------------Header------------------*/
 
@@ -85,15 +90,18 @@ header{
 	height: 290px;
 	background-color: #f2f2f2;
 }
+
 .section{
 	margin-top: 100px;
 	background-size: cover;
 }
+
 .imgheader{
 	display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .textheader{
 	font-family:'Playfair Display',serif;
 	font-size: 13px;
@@ -103,6 +111,7 @@ header{
 	letter-spacing: 2px;
 	padding-bottom: 50px;
 }
+
 .article{
 	background-image: url("../images/mom-daughter1.jpg");
 	background-size: cover;
@@ -113,10 +122,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-.post p a{
-	color:#a60505;
 
-}
 .post{
 	height: 150px;
 	width: 480px;
@@ -124,23 +130,36 @@ header{
 	border-style: double;
 	border-color: #717981;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 0px;
+}
+.post p {
+	color:red;
+	font-size: 12px;
+    padding-left: 175px;
+    margin:25px 0px 0px 0px;
 }
 
+.post p a {
+	color:red;
+}
+
+.post h2{
+	margin: 0px 0px 5px 0px;
+}
 
 /*----------------- Blocs d'articles ----------------*/
 
 .container-fluid {
  	width: 1170px;
  	text-align: center;
-    	padding: 0;
+    padding: 0;
 }
 
 .img-responsive {
   	display: block;
   	max-width: 100%;
 	width: 570px;
-    	height: 380px;
+    height: 380px;
 	background-position:center;
 	margin:0;
 	padding:0;	
@@ -162,10 +181,10 @@ h3 a {
 }
 
 h2 a {
-    	font-family:'Playfair Display',serif; 
-    	text-align: center;
-    	font-size: 18px;
-    	color: #313131;
+    font-family:'Playfair Display',serif; 
+    text-align: center;
+    font-size: 18px;
+    color: #313131;
 	letter-spacing: 1px;
 	font-weight: bold;
 }
@@ -192,17 +211,17 @@ p {
  	color:#313131;
  	font-size: 14px;
 	line-height: 28px;
-        text-align: left;
+    text-align: left;
 }
 
 .share::before {
-    	content: "";
+    content: "";
    	position: absolute;
-    	height: 1px;
-    	width: 35%;
-     	background: #DEDEDE;
-    	display: block;
-    	margin-top: 40px;    
+    height: 1px;
+    width: 35%;
+    background: #DEDEDE;
+    display: block;
+    margin-top: 40px;    
   }
 
 .share {
@@ -211,8 +230,8 @@ p {
 }
 
 .share::after {
-    	content: "";
-    	position: absolute;
+    content: "";
+    position: absolute;
    	height: 1px;
    	width: 35%;
   	background: #DEDEDE;
@@ -235,8 +254,8 @@ p {
 }
 
 .pagination .active  {
-	z-index: 3;
-	color: #fff;
+	z-index: -1;
+	color: red;
 	cursor: default;
 	border:1px;
 	background-color: #a60505;
@@ -259,9 +278,11 @@ footer{
 	background-color: #ffffff;
 	word-wrap: break-word;
 }
+
 .footer-widget-wrapper {
 	min-height: 429px;
 }
+
 aside {
 	width: 363px;
 	min-height: 242px;
@@ -272,6 +293,7 @@ aside {
 	margin-bottom: 50px;
 	background-size: cover;
 }
+
 h5.double {
 	width: 363px;
 	font-family:'Playfair Display',serif;
@@ -281,35 +303,38 @@ h5.double {
 	line-height: 42px;
 	margin-bottom: 22px;
 }
+
 .recent {
 	min-height: 429px;
 }
+
 #recent1{
 	padding-bottom: 15px;
 }
+
 .barre-separation1{	
 	padding-top: 15px;
 	border-top:solid 1px #717981;
 }
+
 .instagram {
 	min-height: 429px;
 }
+
 .instagram1{
 	background-image: url("../images/instagram.jpg");
 	background:cover;
 	min-height: 329px;
-	margin-right: px;
-	margin-left: px;
 }
+
 .instagram2 {
 	border: solid 2px black;
 	min-height: 80px;
 	text-align: center;
 	margin-left: -95px;
 	margin-right: -95px;
-	/*padding-top: 60px;
-	padding-bottom: 60px;*/
 }
+
 .icon {
 	min-height: 40px;
 	margin-left: -95px;
@@ -321,9 +346,11 @@ h5.double {
 	background-color: #212121;
 	border-bottom: solid 2px #717981;
 }
+
 .icon ul{
 	padding-bottom: 20px;
 }
+
 .icon li {
 	text-decoration: none;
 	font-size: 16px;
@@ -331,6 +358,7 @@ h5.double {
     justify-content: center;
     align-items: center;
 }
+
 .end {
 	min-height: 80px;
 	text-align: center;
@@ -338,6 +366,7 @@ h5.double {
 	color: #717981;
 	padding: 20px 0px 50px 0px;
 }
+
 .end p{
 	text-align: center;
 	line-height: 65px;

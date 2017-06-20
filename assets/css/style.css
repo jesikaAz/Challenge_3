@@ -1,17 +1,22 @@
 
 /*--Description: Intégration d'une maquette avec bootstrap
+
 Auteur: Jessica Anschutz et Jonathan Guillou
+
 Date: Semaine 24--*/
 
-/*------------ Organisation du CSS Challenge-03 ------------------------
+
+
+/*------------ Organisation du CSS Challenge-03 ----------*
 00- Généralités 
 01- Polices 
 02- Barre de navigation
-03- Header
-04- Blocs d'articles 
+03- Header04- Blocs d'articles 
 05- Pagination
 06- Footer 
----*/
+/*---------------------------------------------------------*
+
+
 
 /*-----------Généralités---------*/
 
@@ -21,25 +26,24 @@ body{
 	font-size:14px;
 }
 
-/*html{/*-webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;} */ 
 
 /*------------Polices---------*/
 
-@font-face {
-    font-family: "FontAwesome";
-    src: url("../fonts/FontAwesome.otf");
+@font-face{
+	font-family: "FontAwesome";
+	src: url("../fonts/FontAwesome.otf");
 }
 
-@font-face {
-    font-family: "Lato";
-    src: url("../fonts/Lato-Regular.ttf"); 
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.ttf"); 
 }
 
-@font-face {
-    font-family: "PlayfairDisplay";
-    src: url("../fonts/PlayfairDisplay-Bold.ttf");
+@font-face{
+	font-family: "PlayfairDisplay";
+	src: url("../fonts/PlayfairDisplay-Bold.ttf");
 }
+
 
 /*------------Barre de navigation---------*/
 
@@ -50,31 +54,34 @@ body{
 	position: fixed;
 	z-index: 1;
 }
+
+.container{
+	margin-left: 0px;
+}
+.navbar,ul{
+	padding: 10px 0px 50px 0px;
+	margin-left: -1px;
+}
+
+li{
+	font-family: 'Lato',serif;
+	font-size: 13px; 
+	font-weight: bold;
+	list-style: none;
+	display: inline;
+	margin-right: 25px;
+	margin-left: 20px;
+}
+
 a{
 	color: #717981;
 	text-decoration: none;
 }
+
 a:hover{
 	color: #ffffff;
 }
-.navbar,ul{
-	padding: 11px 5px 5px 5px;
-	margin-left: -0.5px;
-}
-li{
-	font-size:13px;
-	list-style: none;
-	display: inline;
-	margin-right: -10px;
-	margin-left: 55px;
-}
 
-/*.glyphicon {
-	color: #ffffff;
-	height: 0px;
-    font-size: 16px;
-    background: none;
-}*/
 
 /*----------------Header------------------*/
 
@@ -83,52 +90,93 @@ header{
 	height: 290px;
 	background-color: #f2f2f2;
 }
+
 .section{
-	margin-top: 10px;
+	margin-top: 100px;
 	background-size: cover;
-	line-height: 21px;
 }
+
 .imgheader{
-	padding: 100px 0px 0px 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
 .textheader{
+	font-family:'Playfair Display',serif;
+	font-size: 13px;
+	font-style: italic;
+	font-weight:bolder; 
 	text-align: center;
+	letter-spacing: 2px;
 	padding-bottom: 50px;
 }
+
 .article{
 	background-image: url("../images/mom-daughter1.jpg");
 	background-size: cover;
 	max-width: 100%;
 	min-height: 560px;
 	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
+.post{
+	height: 150px;
+	width: 480px;
+	background-color:#ffffff;
+	border-style: double;
+	border-color: #717981;
+	text-align: center;
+	padding: center;
+	margin:center;
+}
+.post p{
+	color:red;
+	font-size: 13px;
+	margin:20px 0px 0px 170px;
+}
+
+.post p a{
+	padding: center;
+    margin:center;
+	color:red;
+}
+
+.post h2{
+	margin:0px 0px 5px 0px;
+}
+
 
 /*----------------- Blocs d'articles ----------------*/
 
-.container-fluid {
+
+.container-fluid{
 	width: 1170px;
 	text-align: center;
-    	padding: 0;
+	padding: 0;
 }
 
-.img-responsive {
-  	display: block;
-  	max-width: 100%;
+.img-responsive{
+	display: block;
+	max-width: 100%;
 	width: 570px;
-    	height: 380px;
+  height: 380px;
 	background-position:center;
 	margin:0;
-	padding:0;	
+	padding:0;
 } 
 
-.col-md-6 { 
+.col-md-6{ 
 	width: 570px;
 	position: relative;
-  	padding-right: 15px;
- 	padding-left: 15px;	
+	padding-right: 15px;
+	padding-left: 15px;	
 } 
 
-h3 a {
+h3 a{
 	font-family: 'Lato',serif; 
 	text-align: center;
 	font-size: 12px;
@@ -136,16 +184,16 @@ h3 a {
 	letter-spacing: 0.5px;
 }
 
-h2 a {
-    	font-family:'Playfair Display',serif; 
-    	text-align: center;
-    	font-size: 18px;
-    	color: #313131;
+h2 a{
+	font-family:'Playfair Display',serif; 
+	text-align: center;
+	font-size: 18px;
+	color: #313131;
 	letter-spacing: 1px;
 	font-weight: bold;
 }
 
-h4 {
+h4{
 	font-family: 'Lato',serif; 
 	text-align: center;
 	font-style: italic;
@@ -155,19 +203,19 @@ h4 {
 	display: inline-block;
 }
 
-h4 span {
+h4 span{
 	font-family: 'Lato',serif;
- 	font-style: italic;
- 	font-size: 14px;
- 	color: #313131;
+	font-style: italic;
+	font-size: 14px;
+	color: #313131;
 }
 
-p {
+p{
 	font-family: 'Lato',serif;
- 	color:#313131;
- 	font-size: 14px;
+	color:#313131;
+	font-size: 14px;
 	line-height: 28px;
-        text-align: left;
+	text-align: left;
 }
 
 .share::before {
@@ -183,47 +231,47 @@ p {
 .share {
 	position: relative;
 	display:inline-block;
+
+.share::after{
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 35%;
+	background: #DEDEDE;
+	margin-top: 40px;
 }
 
-.share::after {
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 35%;
-    background: #DEDEDE;
-    margin-top: 40px;
-    
-}
 
 /*----------------- Pagination ----------------*/
-.pagination {
-  display: inline-block;
-  padding-left: 0;
-  border:1px;
-  color: #888;
-  text-align: center;
-  line-height: 28px;
-  height: 30px;
-  font-size: 14px;
-  font-weight: bold; 
+.pagination{
+	display: inline-block;
+	padding-left: 0;
+	border:1px;
+	color: #888;
+	text-align: center;
+	line-height: 28px;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold; 
 }
 
-.pagination .active  {
-  z-index: 3;
-  color: #fff;
-  cursor: default;
-  border:1px;
-  background-color: #a60505;
-  border-color: #a60505;
+.pagination .active{
+	z-index: -1;
+	color: red;
+	cursor: default;
+	border:1px;
+	background-color: #a60505;
+	border-color: #a60505;
 }
 
-barre-separation {
- width: 100%;
- height: 1px;
- color: #DEDEDE;
- display: block;
- top: 49%;
+barre-separation{
+	width: 100%;
+	height: 1px;
+	color: #DEDEDE;
+	display: block;
+	top: 49%;
 }
+
 
 /*-----------------Footer----------------*/
 
@@ -233,10 +281,12 @@ footer{
 	background-color: #ffffff;
 	word-wrap: break-word;
 }
-.footer-widget-wrapper {
+
+.footer-widget-wrapper{
 	min-height: 429px;
 }
-aside {
+
+aside{
 	width: 363px;
 	min-height: 242px;
 	text-align: left;
@@ -246,55 +296,83 @@ aside {
 	margin-bottom: 50px;
 	background-size: cover;
 }
-h5.double {
+
+h5.double{
 	width: 363px;
+	font-family:'Playfair Display',serif;
+	font-size: 18px; 
+	font-weight: bold;
 	border-bottom-style: double;
 	line-height: 42px;
 	margin-bottom: 22px;
 }
-.recent {
+
+.recent{
 	min-height: 429px;
 }
+
+#recent1{
+	padding-bottom: 15px;
+}
+
+.barre-separation1{	
+	padding-top: 15px;
+	border-top:solid 1px #717981;
+}
+
 .instagram {
 	min-height: 429px;
 }
+
 .instagram1{
-	min-height: 429px;
-	margin-right: -10px;
-	margin-left: 55px;
+	background-image: url("../images/instagram.jpg");
+	background:cover;
+	min-height: 329px;
 }
-.instagram2 {
+
+.instagram2{
 	border: solid 2px black;
 	min-height: 80px;
 	text-align: center;
 	margin-left: -95px;
 	margin-right: -95px;
-	/*padding-top: 60px;
-	padding-bottom: 60px;*/
 }
-.icon {
-	min-height: 97px;
+
+.icon{
+	min-height: 40px;
 	margin-left: -95px;
 	margin-right: -95px;
-	padding-top: 30px;
-	padding-bottom: 15px;
+	display: flex;
+	padding-top: 20px;
+	justify-content: center;
+	align-items: center;
 	background-color: #212121;
+	border-bottom: solid 2px #717981;
 }
-.icon li {
+
+.icon ul{
+	padding-bottom: 20px;
+}
+
+.icon li{
 	text-decoration: none;
 	font-size: 16px;
-	margin-right: -25px;
-	margin-left: 100px;
+	display: inline;
+	justify-content: center;
+	align-items: center;
 }
-.end {
+
+.end{
 	min-height: 80px;
 	text-align: center;
 	background-color: #212121;
 	color: #717981;
-	border-top: solid 2px #717981;
-	padding: 50px 0px 50px 00px;
+	padding: 20px 0px 50px 0px;
 }
+
 .end p{
 	text-align: center;
-	line-height: 72px;
+	line-height: 65px;
+	color: #717981;
+
 }

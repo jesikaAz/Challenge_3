@@ -4,7 +4,7 @@
 
 #Date: Semaine 24
 
-#Authors: Jessica Anschutz / Jonathan Guillou
+#Auteurs: Jessica Anschutz / Jonathan Guillou
 
 
 
